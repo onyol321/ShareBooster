@@ -20,7 +20,7 @@ def prompt_ask(
     if password:
         return Prompt.ask(
             prompt_text_assembly,
-            password=True,
+            password=False,
             console=console
         ).strip()
     else:
