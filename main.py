@@ -33,7 +33,7 @@ share_interval_seconds = 0.0001
 max_log_entries = 5000000
 
 class ShareBooster:
-    max_share_per_ses = 50000
+    max_share_per_ses = 1000
     contact = "facebook.com/Bogart"
 
     bilat = ".ratbus.json"
